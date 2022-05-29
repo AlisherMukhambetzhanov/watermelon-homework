@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "b065a0f8-7979-4bc5-9c76-4f0c4a05989a",
+		"name": "Watermelon queries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "2 грядка 2 место",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://watermelons/index.php/user/list?row=2&cell=2",
+					"protocol": "http",
+					"host": [
+						"watermelons"
+					],
+					"path": [
+						"index.php",
+						"user",
+						"list"
+					],
+					"query": [
+						{
+							"key": "row",
+							"value": "2"
+						},
+						{
+							"key": "cell",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 грядка 1 место",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "1 грядка 2 место",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

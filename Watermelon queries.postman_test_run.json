@@ -1,0 +1,150 @@
+{
+	"id": "08f5e4ef-d63f-46c6-8b0c-9a0bd163dfaf",
+	"name": "Watermelon queries",
+	"timestamp": "2022-05-29T11:06:24.930Z",
+	"collection_id": "0-b065a0f8-7979-4bc5-9c76-4f0c4a05989a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "135c323e-3f97-4777-b3d1-b6a449f7aec0",
+			"name": "2 грядка 2 место",
+			"url": "http://watermelons/index.php/user/list?row=2&cell=2",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				30
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b3370fe2-45a9-472e-b832-f18f78c720e4",
+			"name": "3 грядка 1 место",
+			"url": "http://watermelons/index.php/user/list?row=3&cell=1",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				63
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ca4ab4f3-668f-48c7-830c-0cd561b6d52d",
+			"name": "1 грядка 2 место",
+			"url": "http://watermelons/index.php/user/list?row=1&cell=2",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				100
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2cb49586-28fb-4780-bb78-40021bec4256",
+			"name": "2 грядка 1 место",
+			"url": "http://watermelons/index.php/user/list?row=2&cell=1",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				33
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a812e1ab-b6af-44b3-87bd-812bf534b2df",
+			"name": "1 грядка 3 место",
+			"url": "http://watermelons/index.php/user/list?row=1&cell=3",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				33
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "62267568-0802-4923-82b6-50017402e180",
+			"name": "2 грядка 3 место",
+			"url": "http://watermelons/index.php/user/list?row=2&cell=3",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				35
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 294,
+	"collection": {
+		"requests": [
+			{
+				"id": "135c323e-3f97-4777-b3d1-b6a449f7aec0",
+				"method": "GET"
+			},
+			{
+				"id": "b3370fe2-45a9-472e-b832-f18f78c720e4",
+				"method": "GET"
+			},
+			{
+				"id": "ca4ab4f3-668f-48c7-830c-0cd561b6d52d",
+				"method": "GET"
+			},
+			{
+				"id": "2cb49586-28fb-4780-bb78-40021bec4256",
+				"method": "GET"
+			},
+			{
+				"id": "a812e1ab-b6af-44b3-87bd-812bf534b2df",
+				"method": "GET"
+			},
+			{
+				"id": "62267568-0802-4923-82b6-50017402e180",
+				"method": "GET"
+			}
+		]
+	}
+}

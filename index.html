@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Watermelons</title>
+</head>
+<body>
+	<h1>Доставка арбузов</h1>
+	<form action="/success" method="post">
+		<h5>Выберите ряд</h5>
+		<select name="row" id="row">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+		</select>
+
+		<h5>Выберите место</h5>
+		<select name="cell" id="cell">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+		</select>
+		
+		<br>
+		<br>
+		Статус арбуза: <b id="statusOfWatermelon">Выберите ряд и место</b>
+		<br>
+		<br>
+		
+
+		<br>
+		<br>
+		Вес арбуза: <b id="weightOfWatermelon">Выберите ряд и место</b>
+		<br>
+		<br>
+		
+		<p>Количество:</p>
+		<select name="quantity" id="quantity">
+    		<option value="1">1</option>
+    		<option value="1">2</option>
+    		<option value="1">3</option>
+		</select>
+
+		<p>Ваш адрес:</p>
+		<input name="address" placeholder="Укажите ваш адрес">
+
+		<p>Дата доставки:</p>
+		<input type="date" name="deliveryDate" id="deliveryDate">
+
+		<p>Время доставки:</p>
+		<input type="time" id="deliveryTime" name="deliveryTime" min="09:00" max="18:00" required>
+
+		<p>Ваш телефон:</p>
+		<input name="phoneNumber" placeholder="Укажите номер вашего телефона">
+		<br>
+		<br>
+		<label>Порезать дольками:</label> <input type="checkbox" name="slices" >
+		<br>
+		<br>
+		<button type="submit">Заказать</button>
+	</form>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
